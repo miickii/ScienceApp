@@ -1,3 +1,5 @@
+let canvas;
+
 let pTable;
 let elements = [];
 
@@ -11,7 +13,11 @@ let uiBox;
 let hasClicked = false;
 
 function setup() {
-  createCanvas(400, 400);
+  // Getting the canvas div and saving it as a variable, then setting the canvas as a child of that div
+  let canvasDiv = select("#canvas");
+  canvas = createCanvas(400, 400);
+  canvas.parent(canvasDiv);
+
   pTable = new PTable();
   titleScreen = new TitleScreen();
 

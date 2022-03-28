@@ -1,9 +1,9 @@
 class TitleScreen {
     constructor() {
-        this.elementInput = createInput();
+        this.elementInput = select("#formula-input");
         this.elementInput.size(80, 25);
         this.elementInput.position(width/2-this.elementInput.width/2, height/2-this.elementInput.height/2);
-        this.formula = "";
+        this.formulaText = select("#type-formula");
     }
 
     show() {

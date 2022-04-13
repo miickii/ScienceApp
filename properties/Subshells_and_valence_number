@@ -1,0 +1,67 @@
+PERIOD, SHELLS, SUBSHELLS AND ELECTRON CONFIGURATIONS
+------------------------------------------------------
+
+Period - number of shells in atom.
+
+Shell - energy level (the higher the energy level of the shell the farther it is from the nucleus)
+the outer most shell of an atom will have the valence electrons): All shells have an s value
+
+E.g. 1s (first electron in shell 1), 2s (first electron in shell 2), 3s (first electron in shell 3), and so on.....
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SUBSHELLS
+---------
+Subshells/sublevel - shells are further divided into subsets of electrons called subshells. The first shell has only one subshell,
+the second shell has two subshells, the third shell has three subshells, and so on. The subshells of each shell are labeled, in order,
+with the letters s, p, d, and f. Thus, the first shell has only an s subshell, the second shell has an s and a p subshell,
+the third shell has s, p, and d subshells, and so forth.
+
+Subshells and their maximum number of electrons:
+// s - max 2 electrons, every shell contains this subshell
+// p - max 6 electrons, 2nd shell and higher contain this subshell
+// d - max 10 electrons, 3rd shell and higher contain this subshell
+// f - max 14 electrons, 4th shell and higher contain this subshell
+// g - max 18 electrons, 5th shell and higher contain this subshell (theoretically)
+
+^ Superscript is used to denote how many electrons are in a subshell.
+E.g. The Hydrogen atom has a single electron in s subshell of shell 1, and 1s^1 would be used to describe the electron configuration.
+
+EXAMPLES
+Helium - 1s^2 (s subshells can hold 2 electrons, so helium has 2 electrons in the first subshell of the first shell)
+Lithium - 1s^2, 2p^1 (Lithium is in shell 2 meaning that it has 2 subshells, 2 electrons go in 1st subshell s, and 1 electron goes in 2nd subshell p)
+
+The next largest atom, beryllium, has 4 electrons, so its electron configuration is 1s22s2.
+Now that the 2s subshell is filled, electrons in larger atoms start filling the 2p subshell.
+Thus, the electron configurations for the next six atoms are as follows:
+B: 1s22s22p1
+C: 1s22s22p2
+N: 1s22s22p3
+O: 1s22s22p4
+F: 1s22s22p5
+Ne: 1s22s22p6
+
+CONDENSED NOTATION
+------------------
+A condensed notation for writing the electron configuration of an atom, is by writing: [noble gas before it] and the remainder of the subshells
+Lithium is the element after the noble gas Helium, so the electron configuration can be written: [He] 2s^1 with this notation it's basically the electron configuration for the atom written in [] plus whats written next to it.
+
+Example with Fe:
+electron configuration for Fe = 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^6
+The noble gas before Fe is Ar. Ar will already have [1s^2 2s^2 2p^6 3s^2 3p^6], so we just need to add the remainders: [Ar] 3d^6 4s^2
+
+// Transition element - element whose atom has an incomplete d subshell
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Shell 1s corresponding S-subshell: The electron with lowest energy is in the first shell. The first electron in the S-shell is the electron with lowest energy and is written as 1s
+// Shell 2s corresponding S-subshell: The electron with lowest energy in this shell will be written as 2s.
+
+
+// 4s^2 (2 electrons in first subshell of shell 4)
+// 3p^6 (6 electrons in second subshell of shell 3)
+// 3d^10 (10 electrons in third subshell of shell 2)
+
+// E.g. Fe (Period 4) has:
+// Shell 1 - 1s^2
+// Shell 2 - 2s^2, 2p^6
+// Shell 3 - 3s^2, 3p^6, 3d^6
+// Shell 4 - 4s^2  (the reason for why we denote 3d^2 in the 4th shell and not 3rd , is because the energy level is so similar)

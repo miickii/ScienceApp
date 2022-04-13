@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "../Vectors/SplixMovers"
+		},
+		{
+			"path": "../Vectors/Radiation"
+		},
+		{
+			"path": "../Perlin Noise/PerlinNoise1d"
+		},
+		{
+			"path": "../Forces/Forces2"
+		},
+		{
+			"path": "../Perlin Noise/FlowField"
+		},
+		{
+			"path": "../Perlin Noise/PerlinNoise3d"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../Forces/Newtons_second_law"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "KemiProgram"
+	}
+}

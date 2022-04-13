@@ -51,6 +51,32 @@ class PTable {
                 default:
                     element.color = color(240);
             }
+
+            switch (element.Symbol) {
+                case "H":
+                    element.simpleColor = color(255);
+                    break;
+                case "O":
+                    element.simpleColor = color(255, 0, 0);
+                    break;
+                case "Cl":
+                    element.simpleColor = color(0, 255, 0);
+                    break;
+                case "N":
+                    element.simpleColor = color(0, 0, 255);
+                    break;
+                case "C":
+                    element.simpleColor = color(150);
+                    break;
+                case "S":
+                    element.simpleColor = color(255, 255, 0);
+                    break;
+                case "P":
+                    element.simpleColor = color(255, 165, 0);
+                    break;
+                default:
+                    element.simpleColor = color(255, 105, 180);
+            }
         }
     }
 
@@ -87,8 +113,22 @@ class PTable {
         }
     }
 
-    deconFormula(formula) {
-        let elements = formula.split(/(?=[A-Z])/);
+    deconFormula(formula, checkMolecule) {
+        let checkMol = checkMolecule || false;
+        let elements = "";
+        if (checkMol) {
+            //elements = formula.split(/(?=[A-Z])/);
+            elements = formula.split(/(?=[A-Z])|([0-9]+)/g);
+            for (let i = elements.length-1; i >= 0; i--) {
+                if (elements[i] == '' || elements[i] == undefined) {
+                    // Remove all array values that = '';
+                    elements.splice(i, 1);
+                }
+            }
+            //console.log(elements);
+        } else {
+            elements = formula.split(" ");
+        }
         return elements;
     }
 
